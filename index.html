@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delaram's Portoflio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/df6965acea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <head>Delaram</head> -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="myName">Delaram</h1>
+                <!--  add a logo <img src="images/" > -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portoflio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i><i class="fa-solid fa-xmark" onclick="closemenu()"></i></i>
+                </ul>
+                <i><i class="fa-solid fa-bars" onclick="openmenu()"></i></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm Delaram</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- hi -->
+
+    <!-- -------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.jpg" alt="Delaram's photo" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome to my digital space! I am an enthusiastic undergraduate computer science major with a passion for crafting innovative solutions through the realms of web development and data analysis. Throughout my academic journey, I've immersed myself in the dynamic world of computer science, honing my skills in programming, algorithms, and software development. With a keen interest in leveraging technology to solve real-world challenges, I specialize in web development, where I bring ideas to life by creating intuitive and user-friendly interfaces. Additionally, my fascination with data has led me to explore the intricacies of data analysis, allowing me to derive meaningful insights and patterns from complex datasets. Join me on this exploration of my projects and endeavours, where I showcase my dedication to pushing the boundaries of what is possible in the digital landscape. Let's innovate, code, and analyze together!
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>   
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Data Analysis</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>  
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>lalalala</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Data Analysis</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>   
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span><br>okokokok</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Data Analysis</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>     
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-moon"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-rocket"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------Portfolio--------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/pexels-jonathan-schmer-2364398.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pexels-jonathan-schmer-2364402.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pexels-matt-hardy-2755160.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- ------------------------Contact--------------------- -->
+    <div id="conatct">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>delarambahreini@yahoo.com</p>
+                    <p><i class="fa-solid fa-phone"></i>(403)383-3477</p>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/DelaramBahreiniEsfahani.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Delaram</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+    </script>
+</body>
+</html>
