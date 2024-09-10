@@ -513,4 +513,13 @@ nav .fa-solid {
     .copyright {
         font-size: 14px;
     }
+
+
 }
+.custom-link:link,
+  .custom-link:visited,
+  .custom-link:hover,
+  .custom-link:active {
+    color: white;
+    text-decoration: underline; /* Optional: Removes underline if needed */
+  }
